@@ -1,0 +1,28 @@
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .MuiDataGrid-root {
+    font-family: "Poppins", sans-serif !important;
+  }
+  
+  .MuiSvgIcon-root {
+    color: white;
+  }
+  .MuiListItem-button:hover {
+    /* background-color: #2a0d7384 !important; */
+    color: white !important;
+    transform: scale(1.1, 1.1);
+    transition: 0.5s ease-in-out;
+  }
+  .MuiButtonBase-root{
+    color: rgb(18, 30, 123) !important;
+  }
+  .MuiButtonBase-root:hover{
+    background: rgb(30, 30, 142) !important;
+    color: white !important;
+  }
+  a:hover{
+    color: white !important;
+  }

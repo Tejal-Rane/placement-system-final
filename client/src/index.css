@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@400;600&display=swap");
+
+* {
+  font-family: "sans-serif";
+}
+.navbar{
+  background-color: rgb(226, 247, 244) !important;
+  font-size: 20px;
+  color: black !important;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(202, 226, 222);
+  background: linear-gradient(
+    90deg,
+    rgba(101, 113, 111, 0.045) 100%,
+    rgba(19, 182, 214, 0.185) 100%
+  );
+  /* font-family: "Playfair Display", serif !important; */
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+form {
+  font-family: "Poppins", sans-serif !important;
+  background-color: white;
+}
+
+.letter-circle {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: crimson;
+  color: white;
+}
+
+.MuiAppBar-colorPrimary {
+  background: rgb(120, 124, 205) !important;
+  color: white !important;
+}
+.MuiDrawer-paperAnchorLeft {
+  background: rgb(120, 124, 205) !important;
+  color: rgb(0, 0, 0) !important;
+}
+ a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.MuiDataGrid-root {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.MuiSvgIcon-root {
+  color: white;
+}
+.MuiListItem-button:hover {
+  background-color: #2a0d7384 !important;
+  color: white !important;
+  transform: scale(1.1, 1.1);
+  transition: 0.5s ease-in-out;
+}
+.MuiButtonBase-root{
+  color: rgb(18, 30, 123) !important;
+}
+.MuiButtonBase-root:hover{
+  background: rgb(30, 30, 142) !important;
+  color: white !important;
+} 
+/* a:hover{
+  color: white !important;
+} */
+code{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
